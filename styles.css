@@ -1,0 +1,19 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main_header {
+    text-align: center; 
+    font-family: 'Times New Roman', Verdana, sans-sherif;
+    
+}
+
+.index_list {
+    text-align: left;
+}
+
+.recipe_main_img {
+    width: 300px;
+}
+
+
