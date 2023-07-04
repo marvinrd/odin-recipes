@@ -1,22 +1,61 @@
+/* Common styles */
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .main_header {
-    text-align: center; 
-    font-family: 'Times New Roman', Verdana, sans-sherif;
-    
+  text-align: center;
+  font-family: "Times New Roman", Verdana, sans-sherif;
+  border: 1px solid gray;
+  background: orange;
+  margin-top: 0px;
 }
 
-.index_list {
-    text-align: left;
+div {
+  margin: 0 auto;
+  border: 1px solid pink;
+  padding: 4px;
+  width: 600px;
+}
+
+.page_block {
+  margin: 20px auto;
+  border: 1px solid red;
+  display: flexbox;
+}
+
+/* Index page specific styles*/
+.index_page_block {
+  margin: 20px auto;
+  width: 500px;
+  border: 1px solid gray;
+  border-right: 5px solid darkgray;
+  border-bottom: 5px solid black;
+  display: flexbox;
+}
+
+.index_content {
+  text-align: left;
+  border: 1px solid gray;
+  background-color: antiquewhite;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 20px 100px;
+}
+
+/* Recipe page specific styles */
+
+.img_container {
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .recipe_main_img {
-    width: 300px;
+  width: 300px;
 }
 
-
-.content_source_info{
-    font-size: small; color: gray;
+.content_source_info {
+  font-size: small;
+  color: gray;
 }
